@@ -7,9 +7,9 @@ router.post("/create", createTask);
 
 router.get("/all", getAllTasks);
 
-router.get('/:id', deleteTask);
+router.get('/delete/:id', deleteTask);
 
-router.post("/:id", updateTasks);
+router.post("/update/:id", updateTasks);
 
 router.get("/check/:id", setComplete);
 
